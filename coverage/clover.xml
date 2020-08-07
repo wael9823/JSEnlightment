@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1596792978330" clover="3.2.0">
-  <project timestamp="1596792978330" name="All files">
+<coverage generated="1596793636033" clover="3.2.0">
+  <project timestamp="1596793636033" name="All files">
     <metrics statements="102" coveredstatements="102" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10" elements="112" coveredelements="112" complexity="0" loc="102" ncloc="102" packages="1" files="7" classes="7"/>
     <file name="constructorNLiterals.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\constructorNLiterals.js">
       <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>

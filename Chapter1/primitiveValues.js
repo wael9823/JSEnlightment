@@ -1,6 +1,6 @@
 var primitiveString1 = 'Gitfoo'; // logs String (primitve)
 var primitiveString2 = String('Gitfooood'); // logs String (primitve)
-var complexString = new String ('Get food'); //logs object
+var complexString = new String('Get food'); // logs object
 
 console.log(typeof primitiveString1, typeof primitiveString2, typeof complexString);
 

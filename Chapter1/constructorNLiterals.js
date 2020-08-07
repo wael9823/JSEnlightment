@@ -1,3 +1,6 @@
+/* eslint-disable no-array-constructor */
+/* eslint-disable no-var */
+/* eslint-disable no-console */
 var myNumber = new Number(23); // an object
 var myNumberLiteral = 23; // primitive number value, not an object
 
@@ -7,14 +10,15 @@ var myStringLiteral = 'male'; // primitive string value, not an object
 var myBoolean = new Boolean(false); // an object
 var myBooleanLiteral = false; // primitive boolean value, not an object
 
-var myObject = new Object(); 
+var myObject = new Object();
 var myObjectLiteral = {};
 
 var myArray = new Array('foo', 'bar');
-var myArrayLiteral = ['foo', 'bar']; 
+var myArrayLiteral = ['foo', 'bar'];
 
-var myFunction = new Function("x", "y", "return x+y");
-var myFunctionLiteral = function(x, y) {return x+y}; 
+var myFunction = new Function('x', 'y', 'return x+y');
+// eslint-disable-next-line func-names
+var myFunctionLiteral = function (x, y) { return x + y; };
 
 // verify the new created an object from constructor
 

@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1596769020998" clover="3.2.0">
-  <project timestamp="1596769020998" name="All files">
-    <metrics statements="21" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5" elements="26" coveredelements="26" complexity="0" loc="21" ncloc="21" packages="1" files="2" classes="2"/>
+<coverage generated="1596771804700" clover="3.2.0">
+  <project timestamp="1596771804700" name="All files">
+    <metrics statements="41" coveredstatements="41" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5" elements="46" coveredelements="46" complexity="0" loc="41" ncloc="41" packages="1" files="3" classes="3"/>
+    <file name="nativeConstructors.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\nativeConstructors.js">
+      <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+    </file>
     <file name="objectCreation.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\objectCreation.js">
       <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <line num="7" count="1" type="stmt"/>
@@ -21,13 +44,13 @@
     </file>
     <file name="personConstructor.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\personConstructor.js">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
       <line num="4" count="1" type="stmt"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
-      <line num="10" count="1" type="stmt"/>
-      <line num="14" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

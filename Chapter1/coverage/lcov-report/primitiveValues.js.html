@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for nativeConstructors.js</title>
+    <title>Code coverage report for primitiveValues.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="prettify.css" />
     <link rel="stylesheet" href="base.css" />
@@ -19,13 +19,13 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="index.html">All files</a> nativeConstructors.js</h1>
+        <h1><a href="index.html">All files</a> primitiveValues.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>19/19</span>
+                <span class='fraction'>7/7</span>
             </div>
         
             
@@ -46,7 +46,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>19/19</span>
+                <span class='fraction'>7/7</span>
             </div>
         
             
@@ -65,62 +65,23 @@
 <a name='L6'></a><a href='#L6'>6</a>
 <a name='L7'></a><a href='#L7'>7</a>
 <a name='L8'></a><a href='#L8'>8</a>
-<a name='L9'></a><a href='#L9'>9</a>
-<a name='L10'></a><a href='#L10'>10</a>
-<a name='L11'></a><a href='#L11'>11</a>
-<a name='L12'></a><a href='#L12'>12</a>
-<a name='L13'></a><a href='#L13'>13</a>
-<a name='L14'></a><a href='#L14'>14</a>
-<a name='L15'></a><a href='#L15'>15</a>
-<a name='L16'></a><a href='#L16'>16</a>
-<a name='L17'></a><a href='#L17'>17</a>
-<a name='L18'></a><a href='#L18'>18</a>
-<a name='L19'></a><a href='#L19'>19</a>
-<a name='L20'></a><a href='#L20'>20</a>
-<a name='L21'></a><a href='#L21'>21</a>
-<a name='L22'></a><a href='#L22'>22</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<a name='L9'></a><a href='#L9'>9</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">var myNumber = new Number(31);
-var myString = new String('female');
-var myBoolean = new Boolean(true);
-var myObject = new Object();
-var myArray = new Array('foo','bar');
-var myFunction = new Function("x", "y", "return x+y");
-var myDate = new Date();
-var myRegExp = new RegExp('\bt[a-z]+\b');
-var myError = new Error('Crap!');
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">var primitiveString1 = 'Gitfoo'; // logs String (primitve)
+var primitiveString2 = String('Gitfooood'); // logs String (primitve)
+var complexString = new String ('Get food'); //logs object
 &nbsp;
-// log/verify which constructor created the object
-console.log(myNumber.constructor); // logs Number()
-console.log(myString.constructor); // logs String()
-console.log(myBoolean.constructor); // logs Boolean()
-console.log(myObject.constructor); // logs Object()
-console.log(myArray.constructor); //logs Array(), in modern browsers
-console.log(myFunction.constructor); // logs Function()
-console.log(myDate.constructor); // logs Date()
-console.log(myRegExp.constructor); // logs RegExp()
-console.log(myError.constructor); // logs Error()
+console.log(typeof primitiveString1, typeof primitiveString2, typeof complexString);
 &nbsp;
-module.exports = myBoolean;</pre></td></tr></table></pre>
+module.exports.primitiveString1 = primitiveString1;
+module.exports.primitiveString2 = primitiveString2;
+module.exports.complexString = complexString;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->

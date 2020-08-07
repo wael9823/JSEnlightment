@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1596775856899" clover="3.2.0">
-  <project timestamp="1596775856899" name="All files">
-    <metrics statements="60" coveredstatements="60" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="66" coveredelements="66" complexity="0" loc="60" ncloc="60" packages="1" files="4" classes="4"/>
+<coverage generated="1596777117014" clover="3.2.0">
+  <project timestamp="1596777117014" name="All files">
+    <metrics statements="67" coveredstatements="67" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="73" coveredelements="73" complexity="0" loc="67" ncloc="67" packages="1" files="5" classes="5"/>
     <file name="constructorNLiterals.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\constructorNLiterals.js">
       <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
@@ -73,6 +73,16 @@
       <line num="8" count="1" type="stmt"/>
       <line num="12" count="1" type="stmt"/>
       <line num="16" count="1" type="stmt"/>
+    </file>
+    <file name="primitiveValues.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\primitiveValues.js">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

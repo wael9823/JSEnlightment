@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1596803407482" clover="3.2.0">
-  <project timestamp="1596803407483" name="All files">
-    <metrics statements="107" coveredstatements="107" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10" elements="117" coveredelements="117" complexity="0" loc="107" ncloc="107" packages="1" files="8" classes="8"/>
+<coverage generated="1596803991758" clover="3.2.0">
+  <project timestamp="1596803991758" name="All files">
+    <metrics statements="107" coveredstatements="107" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10" elements="117" coveredelements="117" complexity="0" loc="107" ncloc="107" packages="1" files="9" classes="9"/>
+    <file name="complexEquality.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\complexEquality.js">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+    </file>
     <file name="complexObjects.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\complexObjects.js">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <line num="1" count="1" type="stmt"/>

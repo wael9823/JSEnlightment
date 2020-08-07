@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1596777117014" clover="3.2.0">
-  <project timestamp="1596777117014" name="All files">
-    <metrics statements="67" coveredstatements="67" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="73" coveredelements="73" complexity="0" loc="67" ncloc="67" packages="1" files="5" classes="5"/>
+<coverage generated="1596781062233" clover="3.2.0">
+  <project timestamp="1596781062233" name="All files">
+    <metrics statements="86" coveredstatements="86" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="92" coveredelements="92" complexity="0" loc="86" ncloc="86" packages="1" files="6" classes="6"/>
     <file name="constructorNLiterals.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\constructorNLiterals.js">
       <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
@@ -73,6 +73,28 @@
       <line num="8" count="1" type="stmt"/>
       <line num="12" count="1" type="stmt"/>
       <line num="16" count="1" type="stmt"/>
+    </file>
+    <file name="primitiveEquality.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\primitiveEquality.js">
+      <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
     </file>
     <file name="primitiveValues.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\primitiveValues.js">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>

@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for constructorNLiterals.js</title>
+    <title>Code coverage report for primitiveEquality.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="prettify.css" />
     <link rel="stylesheet" href="base.css" />
@@ -19,13 +19,13 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="index.html">All files</a> constructorNLiterals.js</h1>
+        <h1><a href="index.html">All files</a> primitiveEquality.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>21/21</span>
+                <span class='fraction'>19/19</span>
             </div>
         
             
@@ -39,14 +39,14 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/1</span>
+                <span class='fraction'>0/0</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>20/20</span>
+                <span class='fraction'>19/19</span>
             </div>
         
             
@@ -82,28 +82,22 @@
 <a name='L23'></a><a href='#L23'>23</a>
 <a name='L24'></a><a href='#L24'>24</a>
 <a name='L25'></a><a href='#L25'>25</a>
-<a name='L26'></a><a href='#L26'>26</a>
-<a name='L27'></a><a href='#L27'>27</a>
-<a name='L28'></a><a href='#L28'>28</a>
-<a name='L29'></a><a href='#L29'>29</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L26'></a><a href='#L26'>26</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -112,36 +106,33 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">var myNumber = new Number(23); // an object
-var myNumberLiteral = 23; // primitive number value, not an object
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">var string1 = 'foo';   //Primitive
+var string2 = 'foo';   //Primitive
+var string3 = new String('foo');  //complex
+var string4 = string3;  //complex
+var string5 = string3;  //complex
+var string6 = new String('foo');  //complex
 &nbsp;
-var myString = new String('male'); // an object
-var myStringLiteral = 'male'; // primitive string value, not an object
+console.log(string1 === string2); //logs true
+console.log(string1 === string3); //logs false
+console.log(string3 === string4); //logs true
 &nbsp;
-var myBoolean = new Boolean(false); // an object
-var myBooleanLiteral = false; // primitive boolean value, not an object
+string4 = 'foosball';  //Changed from complex to primitive
+console.log(string3 === string4); //logs false due to change
+console.log(string3 === string5); //logs true
 &nbsp;
-var myObject = new Object(); 
-var myObjectLiteral = {};
+console.log(string3 === string6); // logs false as Value same but are referenced differently
 &nbsp;
-var myArray = new Array('foo', 'bar');
-var myArrayLiteral = ['foo', 'bar']; 
+module.exports.string1 = string1;
+module.exports.string2 = string2;
+module.exports.string3 = string3;
+module.exports.string4 = string4;
+module.exports.string5 = string5;
+module.exports.string6 = string6;
 &nbsp;
-var myFunction = new Function("x", "y", "return x+y");
-var myFunctionLiteral = function(x, y) {return x+y}; 
 &nbsp;
-// verify the new created an object from constructor
-&nbsp;
-console.log(myNumber.constructor, myNumberLiteral.constructor);
-console.log(myString.constructor, myStringLiteral.constructor);
-console.log(myBoolean.constructor, myBooleanLiteral.constructor);
-console.log(myObject.constructor, myObjectLiteral.constructor);
-console.log(myArray.constructor, myArrayLiteral.constructor);
-console.log(myFunction.constructor, myFunctionLiteral.constructor);
-&nbsp;
-module.exports.myFunction = myFunction;
-module.exports.myFunctionLiteral = myFunctionLiteral;</pre></td></tr></table></pre>
+&nbsp;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->

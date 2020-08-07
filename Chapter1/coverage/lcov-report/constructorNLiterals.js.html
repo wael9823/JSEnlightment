@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for personConstructor.js</title>
+    <title>Code coverage report for constructorNLiterals.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="prettify.css" />
     <link rel="stylesheet" href="base.css" />
@@ -19,13 +19,13 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="index.html">All files</a> personConstructor.js</h1>
+        <h1><a href="index.html">All files</a> constructorNLiterals.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>8/8</span>
+                <span class='fraction'>21/21</span>
             </div>
         
             
@@ -39,14 +39,14 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>2/2</span>
+                <span class='fraction'>1/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>7/7</span>
+                <span class='fraction'>20/20</span>
             </div>
         
             
@@ -74,7 +74,35 @@
 <a name='L15'></a><a href='#L15'>15</a>
 <a name='L16'></a><a href='#L16'>16</a>
 <a name='L17'></a><a href='#L17'>17</a>
-<a name='L18'></a><a href='#L18'>18</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
@@ -82,33 +110,38 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// define person constructor function in order to create custom Person() objects later
+<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">var myNumber = new Number(23); // an object
+var myNumberLiteral = 23; // primitive number value, not an object
 &nbsp;
-//Use caps for object constructor functions
-var Person = function(working, age, gender) {
-    this.working = working;
-    this.age = age;
-    this.gender = gender;
-    this.getGender = function() {return this.gender;};
-};
+var myString = new String('male'); // an object
+var myStringLiteral = 'male'; // primitive string value, not an object
 &nbsp;
-// instantiate a Person object and store it in the cody variable
-var wael = new Person(true, 21, 'male');
+var myBoolean = new Boolean(false); // an object
+var myBooleanLiteral = false; // primitive boolean value, not an object
 &nbsp;
-//console.log(wael.getGender());
+var myObject = new Object(); 
+var myObjectLiteral = {};
 &nbsp;
-module.exports = wael;
+var myArray = new Array('foo', 'bar');
+var myArrayLiteral = ['foo', 'bar']; 
 &nbsp;
-&nbsp;</pre></td></tr></table></pre>
+var myFunction = new Function("x", "y", "return x+y");
+var myFunctionLiteral = function(x, y) {return x+y}; 
+&nbsp;
+// verify the new created an object from constructor
+&nbsp;
+console.log(myNumber.constructor, myNumberLiteral.constructor);
+console.log(myString.constructor, myStringLiteral.constructor);
+console.log(myBoolean.constructor, myBooleanLiteral.constructor);
+console.log(myObject.constructor, myObjectLiteral.constructor);
+console.log(myArray.constructor, myArrayLiteral.constructor);
+console.log(myFunction.constructor, myFunctionLiteral.constructor);
+&nbsp;
+module.exports.myFunction = myFunction;
+module.exports.myFunctionLiteral = myFunctionLiteral;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->

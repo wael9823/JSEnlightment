@@ -1,0 +1,23 @@
+{
+  "name": "JSEnlightment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "HelloWorld.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wael9823/JSEnlightment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wael9823/JSEnlightment/issues"
+  },
+  "homepage": "https://github.com/wael9823/JSEnlightment#readme",
+  "devDependencies": {
+    "jest": "^26.2.2"
+  }
+}

@@ -8,8 +8,10 @@ var boy2 = {
     age: new Number(21),
 };
 
-console.log(boy1 === boy2); // logs false as they are different objects with similar properties 
-console.log(boy1.name === boy2.name); // logs true as they point to same string?
+console.log(boy1 === boy2); // logs false as they are different objects with similar properties
+console.log(boy1.name === boy2.name); // logs true as they point to same string
+// STRINGS ARE IMMUTABLE (So are numbers) when they are used as primitive types 
+// as objects are Mutable
 console.log(boy1.age === boy2.age); // logs false as boy1 age is primitive and boy2 age is native..
 
 module.exports.name1 = boy1;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1596848138410" clover="3.2.0">
-  <project timestamp="1596848138410" name="All files">
-    <metrics statements="148" coveredstatements="148" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="18" elements="166" coveredelements="166" complexity="0" loc="148" ncloc="148" packages="2" files="12" classes="12"/>
+<coverage generated="1596848972470" clover="3.2.0">
+  <project timestamp="1596848972471" name="All files">
+    <metrics statements="154" coveredstatements="154" conditionals="0" coveredconditionals="0" methods="19" coveredmethods="19" elements="173" coveredelements="173" complexity="0" loc="154" ncloc="154" packages="2" files="13" classes="13"/>
     <package name="Chapter1">
       <metrics statements="124" coveredstatements="124" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
       <file name="complexEquality.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\complexEquality.js">
@@ -160,7 +160,16 @@
       </file>
     </package>
     <package name="Chapter2">
-      <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <metrics statements="30" coveredstatements="30" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <file name="deleteObjProperty.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter2\deleteObjProperty.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
       <file name="encapsulatedObjects.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter2\encapsulatedObjects.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>

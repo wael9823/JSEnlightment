@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for Chapter1/complexEquality.js</title>
+    <title>Code coverage report for Chapter2/protoChainCheck.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../prettify.css" />
     <link rel="stylesheet" href="../base.css" />
@@ -19,13 +19,13 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../index.html">All files</a> / <a href="index.html">Chapter1</a> complexEquality.js</h1>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">Chapter2</a> protoChainCheck.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>7/7</span>
+                <span class='fraction'>9/9</span>
             </div>
         
             
@@ -39,14 +39,14 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/0</span>
+                <span class='fraction'>2/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>7/7</span>
+                <span class='fraction'>9/9</span>
             </div>
         
             
@@ -75,43 +75,49 @@
 <a name='L16'></a><a href='#L16'>16</a>
 <a name='L17'></a><a href='#L17'>17</a>
 <a name='L18'></a><a href='#L18'>18</a>
-<a name='L19'></a><a href='#L19'>19</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">var boy1 = {
-    name: 'Ravi',
-    age: 21,
+<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">var myFan = {
+    noOfBlades: 3,
+    company: 'Hitachi',
+    colour: 'white,',
 };
 &nbsp;
-var boy2 = {
-    name: 'Ravi',
-    age: new Number(21),
-};
+function objectOwnProperty(stringValue1) {
+    return (myFan.hasOwnProperty(stringValue1));
+}
 &nbsp;
-console.log(boy1 === boy2); // logs false as they are different objects with similar properties
-console.log(boy1.name === boy2.name); // logs true as they point to same string
-// STRINGS ARE IMMUTABLE (So are numbers) when they are used as primitive types
-// as objects are Mutable
-console.log(boy1.age === boy2.age); // logs false as boy1 age is primitive and boy2 age is native..
+function objProtoProperty(stringValue2) {
+    return (stringValue2 in myFan);
+}
 &nbsp;
-module.exports.name1 = boy1;
-module.exports.name2 = boy2;
-&nbsp;</pre></td></tr></table></pre>
+console.log(objectOwnProperty('company')); // logs true
+console.log(objectOwnProperty('toString')); // logs false
+console.log(objProtoProperty('company')); // logs true
+console.log(objProtoProperty('toString')); // logs true
+&nbsp;
+module.exports.proto = objProtoProperty;
+module.exports.own = objectOwnProperty;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->

@@ -1,15 +1,15 @@
-var object = {
+var myObject = {
     property1: 13,
     property2: 'goingToDeleteThis',
 };
 
-delete object.property2;
+delete myObject.property2;
 
-console.log('goingToDeleteThis' in object);
+console.log('goingToDeleteThis' in myObject);
 function returnObjProperty() {
-    return object.property2;
+    return myObject.property2;
 }
 
-console.log(object);
+console.log(myObject);
 
 module.exports = returnObjProperty;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1596848972470" clover="3.2.0">
-  <project timestamp="1596848972471" name="All files">
-    <metrics statements="154" coveredstatements="154" conditionals="0" coveredconditionals="0" methods="19" coveredmethods="19" elements="173" coveredelements="173" complexity="0" loc="154" ncloc="154" packages="2" files="13" classes="13"/>
+<coverage generated="1596853229759" clover="3.2.0">
+  <project timestamp="1596853229759" name="All files">
+    <metrics statements="163" coveredstatements="163" conditionals="0" coveredconditionals="0" methods="21" coveredmethods="21" elements="184" coveredelements="184" complexity="0" loc="163" ncloc="163" packages="2" files="14" classes="14"/>
     <package name="Chapter1">
       <metrics statements="124" coveredstatements="124" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
       <file name="complexEquality.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\complexEquality.js">
@@ -160,7 +160,7 @@
       </file>
     </package>
     <package name="Chapter2">
-      <metrics statements="30" coveredstatements="30" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <metrics statements="39" coveredstatements="39" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
       <file name="deleteObjProperty.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter2\deleteObjProperty.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
@@ -199,6 +199,18 @@
         <line num="38" count="1" type="stmt"/>
         <line num="39" count="1" type="stmt"/>
         <line num="40" count="1" type="stmt"/>
+      </file>
+      <file name="protoChainCheck.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter2\protoChainCheck.js">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
       </file>
     </package>
   </project>

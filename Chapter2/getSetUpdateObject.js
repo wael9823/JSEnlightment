@@ -7,7 +7,7 @@ var myShirt = {};
 myShirt.shirtSize = 'Medium';
 myShirt.noOfButtons = 10;
 myShirt.colour = 'Red';
-myShirt.var = false;
+myShirt['var'] = false;
 
 // Getting values using dot and bracket operators
 function getShirtSize() {

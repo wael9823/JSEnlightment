@@ -19,6 +19,7 @@
         "no-new-func":"off",
         "no-new-object":"off",
         "no-array-constructor":"off",
-        "indent": ["error",4]
+        "indent": ["error",4],
+        "comma-dangle":"off"
     }
 }

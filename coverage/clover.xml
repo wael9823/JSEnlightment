@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1596854633754" clover="3.2.0">
-  <project timestamp="1596854633755" name="All files">
-    <metrics statements="172" coveredstatements="172" conditionals="2" coveredconditionals="1" methods="22" coveredmethods="22" elements="196" coveredelements="195" complexity="0" loc="172" ncloc="172" packages="2" files="15" classes="15"/>
+<coverage generated="1596861122456" clover="3.2.0">
+  <project timestamp="1596861122456" name="All files">
+    <metrics statements="174" coveredstatements="174" conditionals="2" coveredconditionals="1" methods="22" coveredmethods="22" elements="198" coveredelements="197" complexity="0" loc="174" ncloc="174" packages="3" files="16" classes="16"/>
     <package name="Chapter1">
       <metrics statements="124" coveredstatements="124" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
       <file name="complexEquality.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\complexEquality.js">
@@ -223,6 +223,14 @@
         <line num="18" count="1" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Chapter3">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="stringDefinedObj.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter3\stringDefinedObj.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
       </file>
     </package>
   </project>

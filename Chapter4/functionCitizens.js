@@ -32,7 +32,7 @@ var sqPlusFunc = function (func, num) {
 
 var rsqPlusFunc = sqPlusFunc(function myFunc(){ return myFunc.num*myFunc.num+myFunc.num; },5);
 
-var res = rsqPlusFunc();
+var res = rsqPlusFunc(5);
 console.log(res);
 
 module.exports = rsqPlusFunc;

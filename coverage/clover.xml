@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1596861122456" clover="3.2.0">
-  <project timestamp="1596861122456" name="All files">
-    <metrics statements="174" coveredstatements="174" conditionals="2" coveredconditionals="1" methods="22" coveredmethods="22" elements="198" coveredelements="197" complexity="0" loc="174" ncloc="174" packages="3" files="16" classes="16"/>
+<coverage generated="1597034128414" clover="3.2.0">
+  <project timestamp="1597034128414" name="All files">
+    <metrics statements="191" coveredstatements="191" conditionals="2" coveredconditionals="1" methods="25" coveredmethods="25" elements="218" coveredelements="217" complexity="0" loc="191" ncloc="191" packages="4" files="17" classes="17"/>
     <package name="Chapter1">
       <metrics statements="124" coveredstatements="124" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
       <file name="complexEquality.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\complexEquality.js">
@@ -9,10 +9,10 @@
         <line num="1" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
       </file>
       <file name="complexObjects.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\complexObjects.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -160,7 +160,7 @@
       </file>
     </package>
     <package name="Chapter2">
-      <metrics statements="48" coveredstatements="48" conditionals="2" coveredconditionals="1" methods="9" coveredmethods="9"/>
+      <metrics statements="56" coveredstatements="56" conditionals="2" coveredconditionals="1" methods="11" coveredmethods="11"/>
       <file name="deleteObjProperty.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter2\deleteObjProperty.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
@@ -171,11 +171,19 @@
         <line num="15" count="1" type="stmt"/>
       </file>
       <file name="encapsulatedObjects.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter2\encapsulatedObjects.js">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
       </file>
       <file name="getSetUpdateObject.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter2\getSetUpdateObject.js">
         <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
@@ -231,6 +239,21 @@
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Chapter4">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="functionCreation.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter4\functionCreation.js">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
       </file>
     </package>
   </project>

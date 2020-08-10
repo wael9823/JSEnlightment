@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1597062999679" clover="3.2.0">
-  <project timestamp="1597062999679" name="All files">
-    <metrics statements="275" coveredstatements="274" conditionals="12" coveredconditionals="10" methods="45" coveredmethods="43" elements="332" coveredelements="327" complexity="0" loc="275" ncloc="275" packages="4" files="24" classes="24"/>
+<coverage generated="1597070844856" clover="3.2.0">
+  <project timestamp="1597070844856" name="All files">
+    <metrics statements="282" coveredstatements="281" conditionals="12" coveredconditionals="10" methods="47" coveredmethods="44" elements="341" coveredelements="335" complexity="0" loc="282" ncloc="282" packages="4" files="25" classes="25"/>
     <package name="Chapter1">
       <metrics statements="124" coveredstatements="124" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
       <file name="complexEquality.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\complexEquality.js">
@@ -242,7 +242,7 @@
       </file>
     </package>
     <package name="Chapter4">
-      <metrics statements="93" coveredstatements="92" conditionals="10" coveredconditionals="9" methods="21" coveredmethods="19"/>
+      <metrics statements="100" coveredstatements="99" conditionals="10" coveredconditionals="9" methods="23" coveredmethods="20"/>
       <file name="callAndApply.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter4\callAndApply.js">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
@@ -313,6 +313,16 @@
         <line num="23" count="1" type="stmt"/>
         <line num="24" count="1" type="stmt"/>
       </file>
+      <file name="hoistingOfFunc.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter4\hoistingOfFunc.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
       <file name="parameters.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter4\parameters.js">
         <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="2" count="4" type="cond" truecount="2" falsecount="0"/>
@@ -334,7 +344,7 @@
         <line num="8" count="1" type="stmt"/>
       </file>
       <file name="selfInvokingFunc.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter4\selfInvokingFunc.js">
-        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>

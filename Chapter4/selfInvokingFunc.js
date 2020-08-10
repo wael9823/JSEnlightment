@@ -10,7 +10,7 @@ var wishHappyBirthday = function (name) { // self-invoking function expression
     console.log(msg);
 }('Hi'));
 
-!function saySalut (msg) { console.log('Salut');}(); // self-invoking anonymous function statement1
+function saySalut (msg) { console.log(msg);}('Salut'); // self-invoking anonymous function statement1
 
 console.log(wishHappyBirthday);
 

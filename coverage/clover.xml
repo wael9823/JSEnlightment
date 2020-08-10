@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1597042943030" clover="3.2.0">
-  <project timestamp="1597042943031" name="All files">
-    <metrics statements="242" coveredstatements="242" conditionals="6" coveredconditionals="5" methods="37" coveredmethods="35" elements="285" coveredelements="282" complexity="0" loc="242" ncloc="242" packages="4" files="21" classes="21"/>
+<coverage generated="1597046899778" clover="3.2.0">
+  <project timestamp="1597046899779" name="All files">
+    <metrics statements="252" coveredstatements="252" conditionals="6" coveredconditionals="5" methods="38" coveredmethods="36" elements="296" coveredelements="293" complexity="0" loc="252" ncloc="252" packages="4" files="22" classes="22"/>
     <package name="Chapter1">
       <metrics statements="124" coveredstatements="124" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
       <file name="complexEquality.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\complexEquality.js">
@@ -242,7 +242,20 @@
       </file>
     </package>
     <package name="Chapter4">
-      <metrics statements="60" coveredstatements="60" conditionals="4" coveredconditionals="4" methods="13" coveredmethods="11"/>
+      <metrics statements="70" coveredstatements="70" conditionals="4" coveredconditionals="4" methods="14" coveredmethods="12"/>
+      <file name="callAndApply.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter4\callAndApply.js">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
       <file name="calleeRecursion.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter4\calleeRecursion.js">
         <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>

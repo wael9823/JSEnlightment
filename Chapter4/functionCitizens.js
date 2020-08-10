@@ -31,6 +31,7 @@ var sqPlusFunc = function (func, num) {
 };
 
 var rsqPlusFunc = sqPlusFunc(function myFunc(){ return myFunc.num*myFunc.num+myFunc.num; },5);
+// rsqPlusFunc is the variable having same refernce as sqPlusFunc
 
 var res = rsqPlusFunc();
 console.log(res);

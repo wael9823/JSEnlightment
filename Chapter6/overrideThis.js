@@ -9,6 +9,6 @@ var myObj = {
 };
 
 myFunc.call(myObj, 'Hello');
-console.log(myObj.printHello());
+console.log(myObj.printHello()); // logs hello
 
 module.exports = myObj.printHello;

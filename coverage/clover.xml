@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1597117433529" clover="3.2.0">
-  <project timestamp="1597117433529" name="All files">
-    <metrics statements="283" coveredstatements="282" conditionals="12" coveredconditionals="10" methods="47" coveredmethods="44" elements="342" coveredelements="336" complexity="0" loc="283" ncloc="283" packages="4" files="25" classes="25"/>
+<coverage generated="1597124097132" clover="3.2.0">
+  <project timestamp="1597124097132" name="All files">
+    <metrics statements="293" coveredstatements="290" conditionals="12" coveredconditionals="10" methods="49" coveredmethods="45" elements="354" coveredelements="345" complexity="0" loc="293" ncloc="293" packages="5" files="26" classes="26"/>
     <package name="Chapter1">
       <metrics statements="124" coveredstatements="124" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
       <file name="complexEquality.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\complexEquality.js">
@@ -370,6 +370,22 @@
         <line num="20" count="1" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
         <line num="23" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Chapter5">
+      <metrics statements="10" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="globalVar.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter5\globalVar.js">
+        <metrics statements="10" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
       </file>
     </package>
   </project>

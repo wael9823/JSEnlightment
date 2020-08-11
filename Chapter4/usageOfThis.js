@@ -17,5 +17,7 @@ myFunc.getCityCh = function(){
 var cityname = myFunc.getCityCh();
 console.log(cityname); 
 
+console.log(this);
+
 module.exports.myObj = myObj;
 module.exports.myFunc = myFunc;

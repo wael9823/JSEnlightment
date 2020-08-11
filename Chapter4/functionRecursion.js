@@ -4,6 +4,7 @@ var factorial = function (num) {
     return num * arguments.callee(num - 1);
 };
 
+// Recursion using function name
 var countTillTen = function (num) {
     if (num < 10 && num >= 0) {
         //console.log(num);

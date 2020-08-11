@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1597124097132" clover="3.2.0">
-  <project timestamp="1597124097132" name="All files">
-    <metrics statements="293" coveredstatements="290" conditionals="12" coveredconditionals="10" methods="49" coveredmethods="45" elements="354" coveredelements="345" complexity="0" loc="293" ncloc="293" packages="5" files="26" classes="26"/>
+<coverage generated="1597142960809" clover="3.2.0">
+  <project timestamp="1597142960809" name="All files">
+    <metrics statements="304" coveredstatements="301" conditionals="12" coveredconditionals="10" methods="50" coveredmethods="46" elements="366" coveredelements="357" complexity="0" loc="304" ncloc="304" packages="6" files="27" classes="27"/>
     <package name="Chapter1">
       <metrics statements="124" coveredstatements="124" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
       <file name="complexEquality.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\complexEquality.js">
@@ -386,6 +386,23 @@
         <line num="18" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Chapter6">
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="determiningThis.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter6\determiningThis.js">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
       </file>
     </package>
   </project>

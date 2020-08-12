@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1597229949716" clover="3.2.0">
-  <project timestamp="1597229949716" name="All files">
-    <metrics statements="392" coveredstatements="389" conditionals="12" coveredconditionals="10" methods="73" coveredmethods="69" elements="477" coveredelements="468" complexity="0" loc="392" ncloc="392" packages="8" files="36" classes="36"/>
+<coverage generated="1597233020299" clover="3.2.0">
+  <project timestamp="1597233020299" name="All files">
+    <metrics statements="398" coveredstatements="395" conditionals="12" coveredconditionals="10" methods="74" coveredmethods="70" elements="484" coveredelements="475" complexity="0" loc="398" ncloc="398" packages="9" files="37" classes="37"/>
     <package name="Chapter1">
       <metrics statements="124" coveredstatements="124" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
       <file name="complexEquality.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\complexEquality.js">
@@ -524,6 +524,18 @@
         <line num="19" count="1" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Chapter9">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="creatingArrays.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter9\creatingArrays.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
       </file>
     </package>
   </project>

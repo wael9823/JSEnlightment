@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1597216987260" clover="3.2.0">
-  <project timestamp="1597216987261" name="All files">
-    <metrics statements="349" coveredstatements="346" conditionals="12" coveredconditionals="10" methods="62" coveredmethods="58" elements="423" coveredelements="414" complexity="0" loc="349" ncloc="349" packages="7" files="32" classes="32"/>
+<coverage generated="1597223281601" clover="3.2.0">
+  <project timestamp="1597223281601" name="All files">
+    <metrics statements="359" coveredstatements="356" conditionals="12" coveredconditionals="10" methods="63" coveredmethods="59" elements="434" coveredelements="425" complexity="0" loc="359" ncloc="359" packages="8" files="33" classes="33"/>
     <package name="Chapter1">
       <metrics statements="124" coveredstatements="124" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
       <file name="complexEquality.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\complexEquality.js">
@@ -465,6 +465,22 @@
         <line num="12" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Chapter8">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="lastStop.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter8\lastStop.js">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
       </file>
     </package>

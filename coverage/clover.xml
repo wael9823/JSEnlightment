@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1597147198395" clover="3.2.0">
-  <project timestamp="1597147198396" name="All files">
-    <metrics statements="318" coveredstatements="315" conditionals="12" coveredconditionals="10" methods="54" coveredmethods="50" elements="384" coveredelements="375" complexity="0" loc="318" ncloc="318" packages="6" files="29" classes="29"/>
+<coverage generated="1597216085555" clover="3.2.0">
+  <project timestamp="1597216085555" name="All files">
+    <metrics statements="340" coveredstatements="337" conditionals="12" coveredconditionals="10" methods="60" coveredmethods="56" elements="412" coveredelements="403" complexity="0" loc="340" ncloc="340" packages="7" files="31" classes="31"/>
     <package name="Chapter1">
       <metrics statements="124" coveredstatements="124" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
       <file name="complexEquality.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\complexEquality.js">
@@ -423,6 +423,37 @@
         <line num="9" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Chapter7">
+      <metrics statements="22" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <file name="lexicalScoping.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter7\lexicalScoping.js">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+      <file name="scopeGotcha.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter7\scopeGotcha.js">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
       </file>
     </package>
   </project>

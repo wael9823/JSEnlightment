@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1597234593967" clover="3.2.0">
-  <project timestamp="1597234593967" name="All files">
-    <metrics statements="414" coveredstatements="411" conditionals="12" coveredconditionals="10" methods="79" coveredmethods="75" elements="505" coveredelements="496" complexity="0" loc="414" ncloc="414" packages="9" files="39" classes="39"/>
+<coverage generated="1597238572873" clover="3.2.0">
+  <project timestamp="1597238572874" name="All files">
+    <metrics statements="436" coveredstatements="433" conditionals="14" coveredconditionals="11" methods="83" coveredmethods="79" elements="533" coveredelements="523" complexity="0" loc="436" ncloc="436" packages="10" files="42" classes="42"/>
     <package name="Chapter1">
       <metrics statements="124" coveredstatements="124" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
       <file name="complexEquality.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\complexEquality.js">
@@ -558,6 +558,40 @@
         <line num="9" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Chapters10to12">
+      <metrics statements="22" coveredstatements="22" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
+      <file name="booleanValues.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapters10to12\booleanValues.js">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+      <file name="numberMethods.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapters10to12\numberMethods.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+      <file name="stringMethods.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapters10to12\stringMethods.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
       </file>
     </package>
   </project>

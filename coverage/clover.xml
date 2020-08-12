@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1597233020299" clover="3.2.0">
-  <project timestamp="1597233020299" name="All files">
-    <metrics statements="398" coveredstatements="395" conditionals="12" coveredconditionals="10" methods="74" coveredmethods="70" elements="484" coveredelements="475" complexity="0" loc="398" ncloc="398" packages="9" files="37" classes="37"/>
+<coverage generated="1597234593967" clover="3.2.0">
+  <project timestamp="1597234593967" name="All files">
+    <metrics statements="414" coveredstatements="411" conditionals="12" coveredconditionals="10" methods="79" coveredmethods="75" elements="505" coveredelements="496" complexity="0" loc="414" ncloc="414" packages="9" files="39" classes="39"/>
     <package name="Chapter1">
       <metrics statements="124" coveredstatements="124" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
       <file name="complexEquality.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\complexEquality.js">
@@ -527,13 +527,35 @@
       </file>
     </package>
     <package name="Chapter9">
-      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="22" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
       <file name="creatingArrays.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter9\creatingArrays.js">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+      <file name="multiArrays.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter9\multiArrays.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+      <file name="removingValues.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter9\removingValues.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
       </file>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1597223281601" clover="3.2.0">
-  <project timestamp="1597223281601" name="All files">
-    <metrics statements="359" coveredstatements="356" conditionals="12" coveredconditionals="10" methods="63" coveredmethods="59" elements="434" coveredelements="425" complexity="0" loc="359" ncloc="359" packages="8" files="33" classes="33"/>
+<coverage generated="1597228452662" clover="3.2.0">
+  <project timestamp="1597228452662" name="All files">
+    <metrics statements="378" coveredstatements="375" conditionals="12" coveredconditionals="10" methods="68" coveredmethods="64" elements="458" coveredelements="449" complexity="0" loc="378" ncloc="378" packages="8" files="35" classes="35"/>
     <package name="Chapter1">
       <metrics statements="124" coveredstatements="124" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
       <file name="complexEquality.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter1\complexEquality.js">
@@ -469,7 +469,7 @@
       </file>
     </package>
     <package name="Chapter8">
-      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="29" coveredstatements="29" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
       <file name="lastStop.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter8\lastStop.js">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
@@ -477,11 +477,36 @@
         <line num="4" count="6" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
+      </file>
+      <file name="latestValue.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter8\latestValue.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="newProto.js" path="C:\Users\USER\Desktop\JSEnlightment\Chapter8\newProto.js">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
       </file>
     </package>
   </project>
